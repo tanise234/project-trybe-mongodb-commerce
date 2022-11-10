@@ -5,9 +5,7 @@
 
 // Select the database to use.
 use('commerce');
-// db.produtos.find();
-// db.produtos.updateMany({}, {$set: {"avaliacao": 0}});
-db.produtos.find({tags: {$elemMatch: {$eq: "bovino"}}});
+db.produtos.find();
 
 // // The drop() command destroys all data from a collection.
 // // Make sure you run it against the correct database and collection.
